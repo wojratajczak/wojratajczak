@@ -6,19 +6,17 @@ Four years between audit at Grant Thornton and corporate FP&A at a manufacturing
 
 Currently: MSc in Computer Science and Econometrics, AGH University of Krakow.
 
-### What I am building
+### Live
 
-**Markets**
+- **[backtest-engine](https://github.com/wojratajczak/backtest-engine)** — event-driven backtesting engine in Python. Strategy/Broker/Portfolio separation, slippage and commission models, and an event loop that makes look-ahead bias structurally impossible rather than merely discouraged.
 
-- **[backtest-engine](../../../backtest-engine)** — event-driven backtesting engine in Python. Strategy/Broker/Portfolio separation, slippage and commission models, no look-ahead bias, tested. *In progress.*
-- **[credit-risk-ml](../../../credit-risk-ml)** — bankruptcy prediction on imbalanced data. Core question: do market-based features (equity volatility, Merton distance-to-default) add anything over accounting ratios? *In progress.*
+### Next up (Nov 2026 – Jan 2027)
 
-**Formula 1 timing data**
-
-- **[f1-warehouse](../../../f1-warehouse)** — dimensional warehouse on lap, stint and pit-stop data. MS SQL Server, SSIS, SSAS. *In progress.*
-- **[f1-panel-econometrics](../../../f1-panel-econometrics)** — how much of a race result is the driver and how much is the car. Panel fixed effects in R, identified off mid-career team changes. *In progress.*
-- **[f1-lap-pipeline](../../../f1-lap-pipeline)** — purely functional processing of raw lap times into stint summaries and tyre-degradation curves. *In progress.*
-- **[f1-api](../../../f1-api)** — REST service over the warehouse: driver stats, team-mate head-to-head, circuit pace. C# / .NET. *In progress.*
+- `credit-risk-ml` — bankruptcy prediction on imbalanced data: do market-based features (equity volatility, Merton distance-to-default) add anything over accounting ratios?
+- `f1-warehouse` — dimensional warehouse on Formula 1 lap, stint and pit-stop data. MS SQL Server, SSIS, SSAS.
+- `f1-panel-econometrics` — how much of a race result is the driver and how much is the car. Panel fixed effects in R, identified off mid-career team changes.
+- `f1-lap-pipeline` — purely functional processing of raw lap times into stint summaries and tyre-degradation curves.
+- `f1-api` — REST service over the warehouse: driver stats, team-mate head-to-head, circuit pace. C# / .NET.
 
 ### Stack
 
